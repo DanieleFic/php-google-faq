@@ -108,10 +108,15 @@ main{
 
 .ms_boxtesto > p{
     padding: 20px 0px;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 .ms_boxdomande > li{
     font-size: 14px;
 }
 
+
+.ms_boxtesto > ul > li{
+    padding: 20px 0px;
+    line-height: 25px;
+}
