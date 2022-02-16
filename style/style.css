@@ -10,6 +10,7 @@ header{
     width: 100vw;
     height: 120px;
     border-bottom: 1px solid RGB(94, 98, 105);
+    background-color: rgb(255, 255, 255);
 }
 
 .ms_container{
@@ -100,3 +101,17 @@ main{
     padding-top: 100px;
     margin: 0 auto;
 }
+
+.ms_boxdomande > h1{
+    padding: 20px 0px;
+}
+
+.ms_boxtesto > p{
+    padding: 20px 0px;
+    line-height: 20px;
+}
+
+.ms_boxdomande > li{
+    font-size: 14px;
+}
+
