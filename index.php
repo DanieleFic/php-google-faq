@@ -89,24 +89,16 @@
         <div class="ms_containermain">
             <div class="ms_boxdomande">
                 <?php
-                    /* foreach ($Domande as  $key => $element){
-                                echo "<h1>".$domanda."</h1>";
-                                foreach ($element as  $key => $answer){
-                                    echo "<h1>".$key."</h1>" ,"<h3>".$element."</h3>";
-                    }
-                } */
-
                 foreach ($domande as $key => $element){
                     echo "<div class='ms_boxtesto'>";
                     echo "<h1>".$element["domanda"]."</h1>";
                     echo "<p>".$element["risposta"]."</p>";
                     echo "</div>";
-                };
+                    };
                 ?>
                 <!-- <h1>Domanda</h1>
                 <span>Risposta</span> -->
             </div>
-            
         </div>
     </main>
 </body>
