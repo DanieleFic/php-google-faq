@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    height: 120px;
+    border-bottom: 1px solid RGB(94, 98, 105);
+}
+
+.ms_container{
+    height: 100%;
+}
+
+.ms_topcontainer{
+    width: 95%;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.ms_bottomcontainer{
+    width: 95%;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.ms_bottomcontainer > ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.ms_bottomcontainer > ul > li {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.ms_logo{
+    width: 120px;
+    margin-right: 10px;
+}
+
+.ms_leftside{
+    margin-top: 20px; 
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.ms_leftside > span{
+    font-size: 30px;
+    color: RGB(94, 98, 105);
+}
+
+.ms_rightside{
+    margin-top: 20px; 
+    display: flex;
+    align-items: center;
+}
+
+.ms_rightside > .ms_button{
+    padding: 9px 23px;
+    margin-left: 20px;
+    border-radius: 4px;
+    border: 0;
+    background-color: Rgb(26, 114, 233);
+    color: white;
+    font-size: 15px;
+}
+
+.fa-th{
+    color: RGB(94, 98, 105);
+    font-size: 20px;
+}
+
+.active{
+    color: RGB(51, 102, 214);
+    border-bottom: 2px solid RGB(51, 102, 214);
+}
+
+main{
+    padding-top: 120px;
+}
+
+.ms_containermain{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.ms_boxdomande{
+    max-width: 1000px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
